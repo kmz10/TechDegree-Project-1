@@ -131,6 +131,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color:white;
 }
 
 footer ul {
@@ -200,7 +201,7 @@ a.social:hover {
   }
 
   footer {
-    color:white;
+    
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
