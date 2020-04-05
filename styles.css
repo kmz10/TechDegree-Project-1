@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: black;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/vnr1.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,37 +69,39 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 30%;
+  border: 6px solid rgb(39, 225, 250);
+  transition: all .2s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) skew(35deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: black;
+  color:  rgb(39, 225, 250);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 25px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: rgb(39, 225, 250);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background:black;
+  color:white;
+  border: solid 4px rgb(39, 225, 250);
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 30px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: greenyellow;
 }
 
 ul.skills {
@@ -198,6 +200,7 @@ a.social:hover {
   }
 
   footer {
+    color:white;
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
@@ -205,3 +208,36 @@ a.social:hover {
 
 }
 
+/* EXPERIENCE CSS SHEET */
+.projects{
+  color:white ;
+  background:black;
+}
+
+.project{
+  color:greenyellow;
+}
+
+.vision{
+  color:white ;
+  background:black;
+}
+
+/* HOBBIES CSS SHEET */
+
+
+.hobby{
+  
+  flex-direction:column;
+  margin-top:80px;
+  color:whitesmoke;
+  text-align: center;
+  }
+
+  .hobbies{
+    margin-left: 10px;
+    margin-bottom: 8px;
+    border: 2px solid rgb(39, 225, 250);
+    border-radius: 20px;
+   }
+  
